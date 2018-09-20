@@ -293,7 +293,7 @@ vector<Edge> Mesh::CreateEdges(Element elem, vector<int> connectVector) {
 
 
 /* 	4-noded quad element       		 8-noded hex element
- * 	(code name: SHELL4, QUAD4) 			(code name: HEX8)
+       (code name: SHELL4, QUAD4) 	           (code name: HEX8)
 
                                              4             3
 2             1                               o-------------o
@@ -305,7 +305,7 @@ o-------------o                              /|	           /|
 |             |                         o----8|-------o    7|
 |             |                         |     o-------|-----o
 o-------------o                         |    /        |    /
-3	          4                         |   /         |   /
+3	      4                         |   /         |   /
                                         |  /          |  /
                                         | /           | /
                                        5|/           6|/
